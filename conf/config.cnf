@@ -1,0 +1,10 @@
+#主机名规范，公司-项目-部门或应用 类如jzy-amabri-hdp-后面加编号‘001’
+export HOSTSPEC=j-z-y-
+#网段信息 
+export VLAN=136.192.61.
+#用户
+export USER=jzy
+#密码
+export PASSWORD=Jzy12#$
+#jdkjar包路径
+export JDKPATH=/opt/
