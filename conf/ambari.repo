@@ -1,0 +1,9 @@
+[ambari-2.5.0.3]
+# 注意把 192.168.111.201 为 自己集群 主节点的ip
+name=ambari Version - ambari-2.5.0.3
+#baseurl=http://public-repo-1.hortonworks.com/ambari/centos7/2.x/updates/2.5.0.3 
+baseurl=http://192.168.111.201/ambari/centos7/
+gpgcheck=1
+#gpgkey=http://public-repo-1.hortonworks.com/ambari/centos7/2.x/updates/2.5.0.3/RPM-GPG-KEY/RPM-GPG-KEY-Jenkins
+gpgkey=http://192.168.111.201/ambari/centos7/RPM-GPG-KEY/RPM-GPG-KEY-Jenkins
+enabled=1
