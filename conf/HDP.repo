@@ -1,0 +1,7 @@
+[HDP-2.6]
+# 注意把 192.168.111.201 为 自己集群 主节点的ip
+name=HDP-2.6
+baseurl=http://192.168.111.201/HDP/centos7/2.6.5.0-292
+path=/
+enabled=1
+gpgcheck=0
