@@ -1,0 +1,7 @@
+[HDP-UTILS-1.1.0.21]
+# 注意把 192.168.111.201 为 自己集群 主节点的ip
+name=HDP-UTILS-1.1.0.21
+baseurl=http://192.168.111.201/HDP-UTILS/
+path=/
+enabled=1
+gpgcheck=0
