@@ -11,6 +11,10 @@ One-click deployment of ambari using shell script
 6. jdk-8u201-linux-x64.tar.gz
 jdk和mysql需要放在指定路径/opt
 版本根据项目需求自己选择对应的版本，可在shell/yumInstall.sh、intsqllMysql.sh、installJDK.sh中替换对应的tar包
+## 服务器准备
+1. 操作系统：centos7
+2. 网络配置已完成
+3. 机房已配备ntp服务，集群使用ntpdate进行时钟同步
 ## 执行
 ```shell
 sh init.sh
@@ -38,5 +42,15 @@ echo "123456" >  /etc/ambari-server/conf/password.dat
 ```
 ## 版本
 当前版本为v0.1，未经过严格测试。
+
+## 后续
+### 期望&缺陷
+1. 加入ntp的安装
+2. for循环1到26，用该提出来作为配置
+3. tar 应该使用配置文件管理起来
+4. mysql部分和amabri setup应该融入脚本
+实现从裸机直接到amabri页面安装的一键式脚本
+### 验证脚本
+目前脚本没有经过严格验证，需要使用者自行修改tar包，jdk，mysql等相关配置，验证脚本的准确性
 
 ## 文档
