@@ -54,3 +54,5 @@ echo "123456" >  /etc/ambari-server/conf/password.dat
 目前脚本没有经过严格验证，需要使用者自行修改tar包，jdk，mysql等相关配置，验证脚本的准确性
 
 ## 文档
+https://blog.csdn.net/jzy3711/article/details/125061429
+https://juejin.cn/post/7103738371373334558/
