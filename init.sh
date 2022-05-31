@@ -1,3 +1,10 @@
+#! /bin/bash
+source conf/config.cnf
+sh sshScript.sh
+sh setHosts.sh
+sh yumInstall.sh
+#set shellhome=/home
+cp shell/* /home
 for i in {001..26};
 do
 #create user
